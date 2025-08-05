@@ -86,8 +86,8 @@ const Field = ({ label, value, onChange, onFocus, onBlur, isSaving, hasError }) 
           onFocus={onFocus}
           onBlur={onBlur}
           className={`${hasError 
-            ? 'border-red-500 text-red-900 focus:border-red-500 focus:ring-red-500' 
-            : 'border-gray-300 focus:border-indigo-600 focus:ring-indigo-600'} 
+            ? 'border-red-500 text-red-900 focus:outline-none focus:ring-2 focus:ring-red-500' 
+            : 'border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-600'} 
             pr-10 transition-colors duration-200`}
           aria-invalid={hasError}
           aria-describedby={hasError ? `${inputId}-error` : undefined}
