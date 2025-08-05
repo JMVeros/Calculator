@@ -1,0 +1,5 @@
+{
+  "name": "Deal Structure Calculator",
+  "description": "A responsive tool to calculate the amount financed for a deal, with real-time saving and validation simulation.",
+  "requestFramePermissions": []
+}
